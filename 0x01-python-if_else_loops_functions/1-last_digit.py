@@ -8,9 +8,9 @@ if (number < 0):
     positive_number = number * -1
     modulo_number = ((positive_number) % 10) * -1
 print("Last digit of " + str(number) + " is " + str(modulo_number), end="")
-if ((positive_number) % 10 == 0):
+if (modulo_number == 0):
     print(" and is 0")
-elif ((positive_number) % 10 < 6):
+elif (modulo_number < 6):
     print(" and is less than 6 and not 0")
 else:
     print(" and is greater than 5")
