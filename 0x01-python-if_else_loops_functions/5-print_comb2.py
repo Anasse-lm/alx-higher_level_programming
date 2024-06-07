@@ -5,5 +5,5 @@
     #else:
         #print("{}".format(i), end=", ")
 print(", ".join(
-    "0{}".format(i) if i < 10 else "{}".format(i) for i in range(20)
+    "0{}".format(i) if i < 10 else "{}".format(i) for i in range(0, 100)
 ))
