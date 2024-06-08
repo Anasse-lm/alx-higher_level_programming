@@ -8,4 +8,4 @@ def pow(a, b):
         r = r * a
     if b < 0:
         r = 1 / r
-    return r 
+    return r
