@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 import sys
-def main():
+def fnt():
     argv = sys.argv
     if (len(argv) - 1) == 0:
         print("0 arguments.")
@@ -12,4 +12,4 @@ def main():
         for i in range(1, len(argv)):
             print("{}: {}".format(str(i), argv[i]))
 if __name__ == "__main__":
-    main()
+    fnt()
