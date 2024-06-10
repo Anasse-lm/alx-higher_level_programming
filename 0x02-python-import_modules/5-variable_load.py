@@ -3,5 +3,6 @@ from variable_load_5 import a
 
 def mainY():
     print(a)
+
 if __name__ == "__main__":
     mainY()
